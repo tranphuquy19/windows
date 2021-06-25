@@ -1,0 +1,4 @@
+Vagrant.configure("2") do |config|
+    config.vm.box = "tranphuquy19/win10x64-enterprise"
+    config.vm.box_version = "1.0.4"
+  end
