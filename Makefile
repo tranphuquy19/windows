@@ -24,6 +24,9 @@ EVAL_WIN10_X64_CHECKSUM ?= 574F00380EAD9E4B53921C33BF348B5A2FA976FFAD1D5FA20466D
 EVAL_WIN10_X86 ?= https://software-download.microsoft.com/download/pr/19042.508.200927-1902.20h2_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x86FRE_en-us.iso
 EVAL_WIN10_X86_CHECKSUM ?= 5F28F9C7BFCE3307E8DAF5F5A7FBEABB9008776859F828A0348B5F0F46A590D9
 
+EVAL_WIN11_X64 ?= https://software-download.microsoft.com/sg/Windows11_InsiderPreview_Client_x64_en-us_22454.iso?t=14bbe5d2-a6b0-4e8c-a150-13545cb58140&e=1633007877&h=ced0c08f87ee512fb16072efe7352d89
+EVAL_WIN11_X64_CHECKSUM ?= a06c359f9cd70abc144a60be691c9c6286a0e3adce7e9e380e33b0b7f7c53162
+
 EVAL_WIN2016_X64 ?= https://software-download.microsoft.com/download/pr/Windows_Server_2016_Datacenter_EVAL_en-us_14393_refresh.ISO
 EVAL_WIN2016_X64_CHECKSUM ?= 772700802951b36c8cb26a61c040b9a8dc3816a3
 
@@ -543,6 +546,7 @@ $(eval $(call BUILDBOX,eval-win10x64-enterprise,$(EVAL_WIN10_X64),$(EVAL_WIN10_X
 
 $(eval $(call BUILDBOX,eval-win10x86-enterprise,$(EVAL_WIN10_X86),$(EVAL_WIN10_X86_CHECKSUM)))
 
+$(eval $(call BUILDBOX,eval-win11x64-enterprise,$(EVAL_WIN11_X64),$(EVAL_WIN11_X64_CHECKSUM)))
 # @todo:
 #$(eval $(call BUILDBOX,eval-win2012-standard,$(EVAL_WIN2012_X64),$(EVAL_WIN2012_X64_CHECKSUM)))
 
