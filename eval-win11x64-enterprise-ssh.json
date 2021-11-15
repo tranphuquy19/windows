@@ -205,7 +205,7 @@
     "cm_version": "",
     "cpus": "2",
     "memory": "4096",
-    "disk_size": "1048576",
+    "disk_size": "204800",
     "hw_version": "7",
     "iso_url": "file:///mnt/01D7B382742C0000/Documents/DevOps/windows/iso/Windows11_InsiderPreview_Client_x64_en-us_22454.iso",
     "iso_checksum": "a06c359f9cd70abc144a60be691c9c6286a0e3adce7e9e380e33b0b7f7c53162",
